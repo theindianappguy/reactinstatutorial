@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.commentInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentInput__textarea {
+  border: none;
+  width: 100%;
+  resize: none;
+  margin: 8px 0px;
+  font-size: 14px;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.commentInput__textarea:focus {
+  outline: none;
+}
+
+.commentInput__btn {
+  background-color: white;
+  border: none;
+}
+
+.commentInput__btn:focus {
+  outline: none;
+}
